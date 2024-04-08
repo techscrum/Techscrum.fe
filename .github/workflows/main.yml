@@ -17,7 +17,7 @@ jobs:
       - name: pull request front-end preview
         uses: rossjrw/pr-preview-action@v1
         with:
-          source-dir: ./dist/
+          source-dir: build
           preview-branch: main
           umbrella-dir: pr-preview
           action: auto
